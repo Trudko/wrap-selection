@@ -11,12 +11,12 @@ module.exports = WrapSelection =
     @subscriptions = new CompositeDisposable
 
     # Register command that toggles this view
-    @subscriptions.add atom.commands.add 'atom-text-editor', 'wrap-selection:toggle': => @toggle()
+    @subscriptions.add atom.commands.add 'atom-text-editor', 'wrap-selection:wrap-it-good': => @wrapItGood()
 
   deactivate: ->
     @subscriptions.dispose()
 
-  toggle: ->
+  wrapItGood: ->
     editor = atom.workspace.getActiveEditor()
     selection = editor.getSelection();
     range = selection.getBufferRange()
