@@ -1,0 +1,16 @@
+{
+  "name": "wrap-selection",
+  "main": "./lib/wrap-selection",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationCommands": {
+    "atom-workspace": "wrap-selection:toggle"
+  },
+  "repository": "https://github.com/atom/wrap-selection",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
