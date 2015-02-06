@@ -2,7 +2,7 @@
   "name": "wrap-selection",
   "main": "./lib/wrap-selection",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Package to wrap block or multiple blocks of the code in text you write.",
   "activationCommands": {
     "atom-workspace": "wrap-selection:wrap-it-good"
   },
