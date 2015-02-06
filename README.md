@@ -1,5 +1,15 @@
 # wrap-selection package
 
-A short description of your package.
+Package which wraps the selected text in whatever you write. 
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+1. Select one or multiple parts of the code.
+2. Run command wrap-selection:wrap-it-good (Fancy command name for simple package :) )
+3. Write the text.
+4. Press escape to cancel extra cursors.
+5. Enjoy the life.
+
+PS: Checm my blog with [tips for Atom](www.atomtips.com)
+
+![wrap-gif](https://cloud.githubusercontent.com/assets/3289225/6081211/1cb177b8-ae18-11e4-896a-7b91a693c5a1.gif)
+
+
