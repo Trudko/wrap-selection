@@ -12,9 +12,10 @@ module.exports = WrapSelection =
 
   wrapItGood: ->
     editor = atom.workspace.getActiveEditor()
-    selection = editor.getSelection()
-    if not selection.isEmpty()
-      range = selection.getBufferRange()
-      selection.destroy()
-      editor.addCursorAtBufferPosition(range.start)
-      editor.addCursorAtBufferPosition(range.end)
+    selections = editor.getSelections()
+    for selection in selections
+        if not selection.isEmpty()
+          range = selection.getBufferRange()
+          selection.destroy()
+          editor.addCursorAtBufferPosition(range.start)
+          editor.addCursorAtBufferPosition(range.end)
