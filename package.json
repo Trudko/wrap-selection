@@ -6,7 +6,7 @@
   "activationCommands": {
     "atom-workspace": "wrap-selection:wrap-it-good"
   },
-  "repository": "https://github.com/atom/wrap-selection",
+  "repository": "https://github.com/Trudko/wrap-selection.git",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
