@@ -5,12 +5,12 @@ module.exports = WrapSelection =
 
   activate: (state) ->
     @subscriptions = new CompositeDisposable
-    @subscriptions.add atom.commands.add 'atom-text-editor', 'wrap-selection:wrap-it-good': => @wrapItGood()
+    @subscriptions.add atom.commands.add 'atom-text-editor', 'wrap-selection:wrap-with-text': => @wrapWithText()
 
   deactivate: ->
     @subscriptions.dispose()
 
-  wrapItGood: ->
+  wrapWithText: ->
     editor = atom.workspace.getActiveEditor()
     selections = editor.getSelections()
     for selection in selections

@@ -4,7 +4,7 @@
   "version": "0.1.1",
   "description": "Package to wrap block or multiple blocks of the code in text you write.",
   "activationCommands": {
-    "atom-workspace": "wrap-selection:wrap-it-good"
+    "atom-workspace": "wrap-selection:wrap-with-text"
   },
   "repository": "https://github.com/Trudko/wrap-selection.git",
   "license": "MIT",
