@@ -1,7 +1,7 @@
 {
   "name": "wrap-selection",
   "main": "./lib/wrap-selection",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Package to wrap block or multiple blocks of the code in text you write.",
   "activationCommands": {
     "atom-workspace": "wrap-selection:wrap-with-text"
