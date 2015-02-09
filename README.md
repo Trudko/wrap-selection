@@ -10,6 +10,4 @@ Package which wraps the selected text in whatever you write.
 
 PS: Check my blog with [tips for Atom](www.atomtips.com)
 
-![wrap-gif](https://cloud.githubusercontent.com/assets/3289225/6081211/1cb177b8-ae18-11e4-896a-7b91a693c5a1.gif)
-
-
+![text-wrap](https://cloud.githubusercontent.com/assets/3289225/6114508/f09b51e2-b09e-11e4-89e7-f284308ce642.gif)
