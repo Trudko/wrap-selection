@@ -3,7 +3,7 @@
 Package which wraps the selected text in whatever you write. 
 
 1. Select one or multiple parts of the code.
-2. Run command wrap-selection:wrap-it-good (Fancy command name for simple package :) )
+2. Run command wrap-selection:wrap-with-text
 3. Write the text.
 4. Press escape to cancel extra cursors.
 5. Enjoy the life.
