@@ -11,7 +11,7 @@ module.exports = WrapSelection =
     @subscriptions.dispose()
 
   wrapWithText: ->
-    editor = atom.workspace.getActiveEditor()
+    editor = atom.workspace.getActiveTextEditor()
     selections = editor.getSelections()
     for selection in selections
         if not selection.isEmpty()
