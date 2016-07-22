@@ -13,9 +13,15 @@ module.exports = WrapSelection =
   wrapWithText: ->
     editor = atom.workspace.getActiveTextEditor()
     selections = editor.getSelections()
+    i = 0
     for selection in selections
         if not selection.isEmpty()
           range = selection.getBufferRange()
           selection.destroy()
-          editor.addCursorAtBufferPosition(range.start)
+          if i == 0
+            editor.setCursorBufferPosition(range.start)
+          else
+            editor.addCursorAtBufferPosition(range.start)
+
           editor.addCursorAtBufferPosition(range.end)
+          i++
